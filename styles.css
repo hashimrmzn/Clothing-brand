@@ -366,3 +366,18 @@ color: #424344;
 
   margin-top: 70px;
 }
+
+
+.slt{
+
+  display: flex; /*     this is for the selection of shoes ags and other accesories*/
+  align-items: center; 
+  padding: 8px;
+  padding-left: 90px;
+}
+
+.slt1{
+
+  padding: 8px;
+  font-weight: bolder;
+}
