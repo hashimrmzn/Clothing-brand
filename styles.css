@@ -1,0 +1,368 @@
+
+
+body{
+
+
+  background-color: #f1ecec;
+}
+
+
+
+.header h2{
+  font-size: 20px;
+       font-family: Arial, Helvetica, sans-serif;
+       font-style: oblique;
+}
+
+
+
+.header {
+  display: flex;
+  align-items: center; /* Center items vertically in the flex container */
+   /* Distribute items evenly along the main axis */
+  
+  
+}
+
+
+
+
+
+ul{
+
+ 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1ecec;
+  padding-inline-start: 400px;
+}
+
+
+li{
+margin-inline: 20px;
+  float: left;
+
+}
+
+.header li a {
+  display: block;
+  text-align: center;
+font-style: oblique;
+  margin-inline: 1px;
+  text-decoration: none;
+  color: rgb(104, 110, 10);
+  
+  font-weight: bold;
+}
+
+.header  li a :hover{
+
+  background-color: rgb(83, 79, 87);
+ border-radius: 5cm;
+}
+
+#imgt{
+  border-radius: 8px;
+  margin-top: 37px;
+}
+
+
+
+.top-image-below{
+
+  margin-top: 90px;
+}
+
+
+
+/* Apply flexbox layout to the container */
+.img-container {
+  display: flex;
+  align-items: center; /* Center items vertically in the flex container */
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the image container */
+.image {
+  flex: 1; /* Let the image container take up available space */
+  padding-right: 10px; /* Add spacing between image and text */
+}
+
+/* Style the image to fit in the container */
+.image2 img {
+  margin-right: 100px;
+  margin-left: 150px;
+  width: 700px;
+  height: 500px;
+}
+
+/* Style the text container */
+.text {
+  flex: 1; /* Let the text container take up available space */
+  font-style: inherit;
+}
+
+
+/* Apply styles to the colorful line */
+.colorful-line {
+  height: 5px;
+  
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  border: none; /* Remove the default border */
+}
+
+
+
+#new-arrivals{
+
+  text-align: center;
+  margin-top: 50PX;
+}
+
+
+#r1{
+
+  margin-left: 60px;
+  display: flex;
+  align-items: center; /* Center items vertically in the flex container */
+  
+  
+}
+
+#r1 img{
+  flex: 1;
+  margin-right: 50px;
+  width: 250px;
+  height: 300px;
+  border-radius: 5PX;
+  transition: transform 0.3s;
+}
+
+
+#r1 img:hover{
+
+  transform: scale(1.1);
+  /* Increase the size of the image on hover */
+  /* Add any other styles you want to apply on hover */
+}
+
+#kajal{
+
+  word-spacing: 4px;
+  font-style: italic;
+}
+
+.image21 img {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 150px;
+  width: 400px;
+  height: 500px;
+  border-radius: 8px;
+  transition: transform 0.3s; /* Add a smooth transition effect */
+}
+
+/* Apply hover styles to the image */
+.image21 img:hover{
+
+  transform: scale(1.1);
+  /* Increase the size of the image on hover */
+  /* Add any other styles you want to apply on hover */
+}
+
+#save{ /*  this is for saving price of the clothes*/
+margin-left: 20px;
+  color: rgb(231, 51, 51);
+  font-weight: lighter;
+
+}
+
+
+#price{    /*  this is for mention price of the clothes*/
+  margin-left: 10px;
+  font-weight: lighter;
+}
+
+
+
+
+
+#welcome{
+  flex: 1; /* Let the text container take up available space */
+  font-style: inherit;
+  font-weight: lighter;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+/* Apply styles to the view-all button */
+.view-all {
+  background-color: #0c1f33;
+  color: #fcf8f8;
+  padding: 10px 20px;
+  border: none;
+  
+  border-radius: 8px;
+  border-color: #25282c;
+  cursor: pointer;
+}
+
+.view-all:hover {
+  background-color: #53a2f1;
+}
+
+.btn-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.btn{
+
+  background-color: #000000;
+  color: #f1e9e9;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 60px;
+  border-radius: 8px;
+  border-color: #042652;
+  cursor: pointer;
+  
+
+}
+
+
+.btn:hover
+{
+
+  background-color: #424344;
+
+}
+
+.below-images{
+
+  margin-top: 90px;
+
+}
+
+
+
+.r2{
+
+  margin-left: 70px;
+  display: flex;
+  align-items: center; /* Center items vertically in the flex container */
+  
+  
+}
+
+.r2 img{
+  flex: 1;
+  margin-right: 60px;
+  width: 220px;
+  height: 250px;
+  border-radius: 5PX;
+  transition: transform 0.3s;
+}
+
+
+.r2 img:hover{
+
+  transform: scale(1.1);
+  /* Increase the size of the image on hover */
+  /* Add any other styles you want to apply on hover */
+}
+
+
+.ready{
+
+  margin-top: 180px;
+  
+}
+
+.ready1{
+
+color: #424344;
+  margin-left: 50px;
+  font-weight: lighter;
+  font-style: italic;
+  margin-top: 1px;
+}
+
+.shop{
+  margin-left: 40px;
+  font-weight: bolder;
+  font-size: 50px; 
+  font-weight: lighter;
+  margin-top: 1px;
+}
+
+
+.rd{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Apply styles to the image container */
+.image-container {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+/* Style the image */
+.image-container img {
+  width: 800px;
+  height: auto;
+  margin-left: 50px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+/* Style the image overlay */
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Apply different hover effects for each image */
+.image-container:hover img {
+  transform: scale(1.1);
+}
+
+.image-container:hover .image-overlay {
+  opacity: 1;
+}
+
+
+/* Apply styles to the custom line */
+.custom-line {
+  height: 5px;
+  
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  border: none; /* Remove the default border */
+  margin-left: 90px;
+  margin-right: 90px;
+
+  margin-top: 70px;
+}
