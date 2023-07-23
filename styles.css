@@ -3,7 +3,7 @@
 body{
 
 
-  background-color: #f1ecec;
+  background-color: #ecf3d3;
 }
 
 
@@ -388,9 +388,81 @@ color: #424344;
 /* Apply hover effect to the headings with class "slt1" */
 .slt1:hover {
   color: rgb(26, 25, 25); /* Text color */
-  background-color: rgb(243, 243, 192); /* Background color */
+  background-color: rgb(247, 247, 188); /* Background color */
   font-weight: bold; /* Bold font */
   font-size: larger;
   text-decoration: underline; /* Underline text */
   /* Add any other styles you want to apply on hover */
 }
+
+
+footer{
+
+  display: flex; /*     this is for the selection of shoes ags and other accesories*/
+  
+  background-color: rgb(248, 255, 244);
+}
+
+
+.foot1{
+
+    margin-left: 30px;
+  }
+  
+
+.foot{
+font-weight: 10;
+font-style: italic;
+  margin-left: 30px;
+}
+
+.foot:hover{
+
+  color: rgb(26, 25, 25); /* Text color */
+  background-color: rgb(247, 247, 240); /* Background color */
+  font-weight: bold; /* Bold font */
+  font-size: larger;
+  text-decoration: underline; /* Underline text */
+  /* Add any other styles you want to apply on hover */
+}
+
+.stay{
+
+  font-weight: 10;
+font-style: italic;
+  margin-left: 90px;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border: #000000;
+  border-radius: 50px;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
