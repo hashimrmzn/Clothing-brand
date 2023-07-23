@@ -382,4 +382,15 @@ color: #424344;
   font-weight: bolder;
   font-style: oblique;
   margin-left: 50px;
+  
+}
+
+/* Apply hover effect to the headings with class "slt1" */
+.slt1:hover {
+  color: rgb(26, 25, 25); /* Text color */
+  background-color: rgb(243, 243, 192); /* Background color */
+  font-weight: bold; /* Bold font */
+  font-size: larger;
+  text-decoration: underline; /* Underline text */
+  /* Add any other styles you want to apply on hover */
 }
