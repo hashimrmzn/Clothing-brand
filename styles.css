@@ -377,18 +377,20 @@ color: #424344;
 }
 
 .slt1{
-
+border-radius: 10px;
   padding: 8px;
   font-weight: bolder;
   font-style: oblique;
+  color: #ecf3d3;
   margin-left: 50px;
+  background-color: #292a2b;
   
 }
 
 /* Apply hover effect to the headings with class "slt1" */
 .slt1:hover {
   color: rgb(26, 25, 25); /* Text color */
-  background-color: rgb(247, 247, 188); /* Background color */
+  background-color: rgb(189, 189, 185); /* Background color */
   font-weight: bold; /* Bold font */
   font-size: larger;
   text-decoration: underline; /* Underline text */
